@@ -72,7 +72,7 @@ class _DetailBeritaPageState extends State<DetailBeritaPage> {
                             decoration: BoxDecoration(
                               image: DecorationImage(
                                   image: NetworkImage(
-                                      'https://api.genshin.dev/nations/${newsModel.nation.toLowerCase()}/icon'),
+                                      'https://api-berita-indonesia.vercel.app/cnn${newsModel.nation.toLowerCase()}/icon'),
                                   fit: BoxFit.cover),
                             ),
                             height: 50,
@@ -82,7 +82,7 @@ class _DetailBeritaPageState extends State<DetailBeritaPage> {
                             decoration: BoxDecoration(
                               image: DecorationImage(
                                   image: NetworkImage(
-                                      'https://api.genshin.dev/elements/${karakter.visionKey.toLowerCase()}/icon'),
+                                      'https://api-berita-indonesia.vercel.app/cnn${karakter.visionKey.toLowerCase()}/icon'),
                                   fit: BoxFit.cover),
                             ),
                             height: 50,

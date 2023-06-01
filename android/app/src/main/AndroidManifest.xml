@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.lat_responsi_123200012">
+    package="com.example.responsi_devina">
    <application
-        android:label="lat_responsi_123200012"
+        android:label="responsi_devina"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

@@ -1,21 +1,22 @@
 import 'package:flutter/material.dart';
-import 'package:responsi_123200155/pages/home.dart';
+import 'home.dart';
 
 void main() {
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  const MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Responsi',
+      title: 'CNN',
+      theme: ThemeData(
+        primarySwatch: Colors.red,
+      ),
+      debugShowCheckedModeBanner: false,
       home: HomePage(),
     );
   }
 }
-// Nama : Rahmadi Priambudi Riadi
-// NIM  : 123200155
-

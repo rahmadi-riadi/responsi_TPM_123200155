@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "lat_responsi_123200012" "\0"
+            VALUE "FileDescription", "responsi_devina" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "lat_responsi_123200012" "\0"
+            VALUE "InternalName", "responsi_devina" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2023 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "lat_responsi_123200012.exe" "\0"
-            VALUE "ProductName", "lat_responsi_123200012" "\0"
+            VALUE "OriginalFilename", "responsi_devina.exe" "\0"
+            VALUE "ProductName", "responsi_devina" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
